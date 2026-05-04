@@ -1,0 +1,71 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  /* Tipografia segura -> Todos los SO van a tener alguna de estás tipografías */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+  max-width: 900px;
+  border: 1px solid crimson;
+  margin: auto;
+}
+
+.texto-rojo {
+  color: crimson;
+}
+
+.fondo-base {
+  background-color: blue;
+  width: auto;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.fondo-color {
+  background-color: darkslateblue;
+}
+
+.fondo-degradado {
+  background-image: linear-gradient(darkorange, darkgreen);
+}
+
+.fondo-degradado-2{
+  background-image: linear-gradient(darkslateblue, darkorchid, darkred);
+}
+
+.fondo-degradado-3{
+  background-image: linear-gradient(to left, darkgreen, darkorange);
+}
+
+.fondo-degradado-4{
+  background-image: linear-gradient(to left bottom, darkgreen, darkorange);
+}
+
+.fondo-degradado-5{
+  background-image: linear-gradient(130deg, crimson, pink);
+}
+
+.fondo-degradado-6{
+  background: crimson; /* fallback */
+  background-image: linear-gradient(130deg, crimson, pink);
+}
+
+.fondo-degradado-7{
+  background: crimson; /* fallback */
+  background-image: linear-gradient( crimson 30%, pink 70%);
+}
+
+/* https://cssgradient.io/ */
+
+.fondo-imagen-1 {
+  background-image: linear-gradient(rgba(224, 154, 67, 0.3), rgba(173, 173, 82, 0.3)), url("https://images.unsplash.com/photo-1771143527938-a0ed2f30f326?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center center;
+}
