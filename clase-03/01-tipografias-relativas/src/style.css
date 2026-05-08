@@ -56,3 +56,16 @@ p.parrafo {
 
 /* ! Porcentajes y Viewport */
 
+/* Viewport (rem). Es el elemento del cual se van a fijar el resto para tomar un tamaño. Tamaño del viewport */
+
+.papa {
+  background-color: darkred;
+  height: 20px;
+  color: white;
+  width: 100vw;
+}
+
+.hijo {
+  background-color: darkblue;
+  width: 25vw;
+}
