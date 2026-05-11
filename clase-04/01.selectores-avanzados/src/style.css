@@ -1,0 +1,27 @@
+/* selector * */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+/* selector de etiqueta */
+body {
+  background-color: #ddd;
+}
+
+h2 {
+  color: deeppink;
+}
+
+/* Selector de clase (.) */
+
+.borde {
+  border: 2px solid blueviolet;
+}
+
+#seccion {
+  background-color: #ba92e0;
+  border: 2px solid #ffc0cb;
+}
+
